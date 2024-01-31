@@ -7,8 +7,6 @@ python, ml, sql algorithm study project
 
 [2] [programmers](https://school.programmers.co.kr/learn/challenges?order=recent&partIds=20069)
 
-[3] [baekjoon](https://www.acmicpc.net/problemset)
-
-[4] [leetcode](https://leetcode.com/problemset/)
+[3] [leetcode](https://leetcode.com/problemset/)
 
 ※ https://github.com/handr95/algorithm_problem
