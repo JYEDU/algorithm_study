@@ -1,4 +1,8 @@
 def solution(triangle):
+    '''
+    정수 삼각형
+    link : https://school.programmers.co.kr/learn/courses/30/lessons/43105
+    '''
     # 삼각형의 크기
     size = len(triangle)
 
