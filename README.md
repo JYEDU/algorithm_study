@@ -1,7 +1,9 @@
 # ALGORITHM STUDY
 python, ml, sql algorithm study project
 
-## REFERENCE
+
+
+# REFERENCE
 
 [1] [testdome](https://www.testdome.com/library)
 
@@ -12,9 +14,10 @@ python, ml, sql algorithm study project
 ※ https://github.com/handr95/algorithm_problem
 
 
-## LIST
 
-### WEEK 4
+# LIST
+
+## WEEK 4
 #### 신고 결과 받기 
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/92334)
 - python
@@ -40,7 +43,7 @@ python, ml, sql algorithm study project
 - python
 
 
-### WEEK 3
+## WEEK 3
 #### 덧칠하기
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/161989)
 - python
@@ -74,7 +77,7 @@ python, ml, sql algorithm study project
 - python
 
 
-### WEEK 2
+## WEEK 2
 #### 징검다리
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/43236)
 - python
@@ -100,7 +103,7 @@ python, ml, sql algorithm study project
 - python, machine learning, scikit-learn, numpy, classification
 
 
-### WEEK 1
+## WEEK 1
 #### 폰켓몬
 - [programmers]()
 - python
