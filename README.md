@@ -162,5 +162,5 @@ python, ml, sql algorithm study project
 - SQL, select
 
 #### 젊은 동물 찾기
--[programmers](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
 - SQL, select
