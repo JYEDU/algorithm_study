@@ -1,14 +1,16 @@
+'''
+신규 아이디 추천
+link : https://school.programmers.co.kr/learn/courses/30/lessons/72410#
+
+3<=length of id <= 15
+The ID can only contain lowercase letters, numbers, minus (-), underscore (_), and period (.) characters.
+However, the period (.) cannot be used at the beginning and end, and cannot be used consecutively.
+'''
+
 import re
 
 def solution(new_id):
-    '''
-    new id recommendation
-    link : https://school.programmers.co.kr/learn/courses/30/lessons/72410#
-    
-    3<=length of id <= 15
-    The ID can only contain lowercase letters, numbers, minus (-), underscore (_), and period (.) characters.
-    However, the period (.) cannot be used at the beginning and end, and cannot be used consecutively.
-    '''
+
     out = new_id.lower()
     out = re.sub(r'[^a-z0-9-_.]', '', out)
     out = re.sub(r'\.{2,}', '.', out)

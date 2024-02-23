@@ -1,3 +1,8 @@
+"""
+징검다리
+link: https://school.programmers.co.kr/learn/courses/30/lessons/43236
+"""
+
 def solution(distance, rocks, n):
     rocks.sort()
     answer = 0

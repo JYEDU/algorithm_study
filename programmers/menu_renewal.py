@@ -1,11 +1,12 @@
+'''
+메뉴 리뉴얼
+link : https://school.programmers.co.kr/learn/courses/30/lessons/72411
+'''
+
 from itertools import combinations
 from collections import Counter
 
 def solution(orders, course):
-    '''
-    Menu Renewal
-    link : https://school.programmers.co.kr/learn/courses/30/lessons/72411
-    '''
     answer = []
 
     for course_size in course:

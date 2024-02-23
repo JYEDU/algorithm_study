@@ -1,8 +1,9 @@
-def solution(genres, plays):
     '''
     베스트앨범
     link : https://school.programmers.co.kr/learn/courses/30/lessons/42579
     '''
+
+def solution(genres, plays):
     # 각 장르의 총 재생 횟수를 저장하는 딕셔너리 생성
     # genre : total number of plays
     total_plays_by_genre = {}

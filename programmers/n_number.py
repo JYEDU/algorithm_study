@@ -1,8 +1,9 @@
+'''
+N으로 표현
+link : https://school.programmers.co.kr/learn/courses/30/lessons/42895
+'''
+
 def solution(N, number):
-    '''
-    N으로 표현
-    link : https://school.programmers.co.kr/learn/courses/30/lessons/42895
-    '''
     # dp[i]: i번째로 만들 수 있는 모든 수의 집합
     dp = [set() for _ in range(9)]
 
