@@ -112,7 +112,7 @@ python, ml, sql algorithm study project
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 - python 
 
-#### 베스트앨범
+#### [베스트앨범](#github\algorithm_study\programmers\best_album.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - python
 
