@@ -17,6 +17,11 @@ python, ml, sql algorithm study project
 
 # LIST
 
+## WEEK 5
+#### [가장 많이 받은 선물](https://github.com/JYEDU/algorithm_study/blob/main/programmers/exchange_gifts.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/258712#)
+- python, for, if, list, dict
+
 ## WEEK 4
 #### [삼총사](https://github.com/JYEDU/algorithm_study/blob/main/programmers/trio_student.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/131705)
