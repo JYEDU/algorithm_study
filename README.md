@@ -18,6 +18,10 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 5
+#### [성격 유형 검사하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/kakao_mbti.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+- python, for, if
+
 #### [가장 많이 받은 선물](https://github.com/JYEDU/algorithm_study/blob/main/programmers/exchange_gifts.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/258712#)
 - python, for, if, list, dict

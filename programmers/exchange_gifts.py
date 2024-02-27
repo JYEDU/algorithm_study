@@ -16,7 +16,6 @@ def solution(friends, gifts):
         gifts_score[friends_idx[from_gift]][0]+=1
         gifts_score[friends_idx[to_gift]][1]+=1
     # 선물 지수 계산 및 가장 많은 선물을 받는 친구가 받을 선물의 수 return
-    
     answer=0
     for i in range(num_friends):
         count_gifts=0
