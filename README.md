@@ -18,6 +18,10 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 5
+#### [The Number of Weak Characters in the Game](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/weak_characters.py)
+- [leetcode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/description/)
+- python
+
 #### [성격 유형 검사하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/kakao_mbti.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 - python, for, if
