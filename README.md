@@ -18,7 +18,11 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 5
-#### [The Number of Weak Characters in the Game](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/weak_characters.py)
+#### [zigzag conversion](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/zigzag_conversion)
+- [leetcode](https://leetcode.com/problems/zigzag-conversion/)
+- python
+
+#### [The Number of Weak Characters in the Game](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/weak_characters)
 - [leetcode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/description/)
 - python
 
@@ -133,7 +137,7 @@ python, ml, sql algorithm study project
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - python
 
-#### [Two sum](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/two_sum.py)
+#### [Two sum](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/two_sum)
 - [programmers](https://leetcode.com/problems/two-sum/)
 - python
 

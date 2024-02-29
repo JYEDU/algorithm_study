@@ -1,7 +1,6 @@
 class Solution(object):
     def twoSum(self, nums, target):
         """
-        link : https://leetcode.com/problems/two-sum/
         :type nums: List[int]
         :type target: int
         :rtype: List[int]

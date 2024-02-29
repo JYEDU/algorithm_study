@@ -1,14 +1,12 @@
 class Solution(object):
     def numberOfWeakCharacters(self, properties):
         """
-        The Number of Weak Characters in the Game
-        link: https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/description/
-
         :type properties: List[List[int]]
         :rtype: int
         """
         num_characters = len(properties)
-        properties.sort(key=lambda x: (-x[0], x[1]))  # 공격력 내림차순, 방어력 오름차순 정렬
+        # 공격력 내림차순, 방어력 오름차순 정렬
+        properties.sort(key=lambda x: (-x[0], x[1]))
         
         max_defense = float('-inf')
         weak_count = 0
