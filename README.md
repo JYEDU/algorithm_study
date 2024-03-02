@@ -18,6 +18,10 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 5
+#### [Next Greater Element I](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/next_greater_element1)
+- [leetcode](https://leetcode.com/problems/next-greater-element-i/)
+- python
+
 #### [zigzag conversion](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/zigzag_conversion)
 - [leetcode](https://leetcode.com/problems/zigzag-conversion/)
 - python
@@ -33,6 +37,7 @@ python, ml, sql algorithm study project
 #### [가장 많이 받은 선물](https://github.com/JYEDU/algorithm_study/blob/main/programmers/exchange_gifts.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/258712#)
 - python, for, if, list, dict
+
 
 ## WEEK 4
 #### [삼총사](https://github.com/JYEDU/algorithm_study/blob/main/programmers/trio_student.py)
