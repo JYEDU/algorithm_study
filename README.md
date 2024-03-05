@@ -17,6 +17,20 @@ python, ml, sql algorithm study project
 
 # LIST
 
+## WEEK 6
+#### [달리기 경주](https://github.com/JYEDU/algorithm_study/blob/main/programmers/running_race.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
+- python
+
+#### [붕대 감기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/bandage_wrapping.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/250137?language=python3)
+- python
+
+#### [String to number](https://github.com/JYEDU/algorithm_study/blob/main/programmers/string_to_number.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/12925)
+- python
+
+
 ## WEEK 5
 #### [Next Greater Element I](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/next_greater_element1)
 - [leetcode](https://leetcode.com/problems/next-greater-element-i/)
