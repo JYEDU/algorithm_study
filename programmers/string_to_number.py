@@ -32,4 +32,5 @@ case2_pred = solution(case2_s)
 
 # 채점 결과
 isanswer = [case1_pred==case1_answer, case2_pred==case2_answer]
-print(isanswer.count(True),"/",len(isanswer))
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

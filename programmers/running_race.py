@@ -30,4 +30,5 @@ case1_pred = solution(case1_players, case1_callings)
 
 # 채점 결과
 isanswer = [case1_pred==case1_answer]
-print(isanswer.count(True),"/",len(isanswer))
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

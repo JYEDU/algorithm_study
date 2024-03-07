@@ -32,6 +32,17 @@ def solution(friends, gifts):
             answer=count_gifts
     return answer
 
-print(solution(["muzi", "ryan", "frodo", "neo"], ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"])) #2
-print(solution(["joy", "brad", "alessandro", "conan", "david"], ["alessandro brad", "alessandro joy", "alessandro conan", "david alessandro", "alessandro david"])) #4
-print(solution(["a", "b", "c"], ["a b", "b a", "c a", "a c", "a c", "c a"])) #0
+# 테스트 케이스
+case1_pred=solution(["muzi", "ryan", "frodo", "neo"], ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"])
+case1_true=2
+
+case2_pred=solution(["joy", "brad", "alessandro", "conan", "david"], ["alessandro brad", "alessandro joy", "alessandro conan", "david alessandro", "alessandro david"])
+case2_true=4
+
+case3_pred=solution(["a", "b", "c"], ["a b", "b a", "c a", "a c", "a c", "c a"])
+case3_true=0
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true, case3_pred==case3_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

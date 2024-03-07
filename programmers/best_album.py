@@ -1,7 +1,7 @@
-    '''
-    베스트앨범
-    link : https://school.programmers.co.kr/learn/courses/30/lessons/42579
-    '''
+'''
+베스트앨범
+link : https://school.programmers.co.kr/learn/courses/30/lessons/42579
+'''
 
 def solution(genres, plays):
     # 각 장르의 총 재생 횟수를 저장하는 딕셔너리 생성
@@ -41,3 +41,12 @@ def solution(genres, plays):
         result.extend([song[0] for song in songs[:2]])  # 각 장르별로 최대 2개의 노래 추가
 
     return result
+
+# 테스트 케이스
+case1_pred=solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
+case1_true=[4, 1, 3, 0]
+
+# 채점 결과
+isanswer = [case1_pred==case1_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

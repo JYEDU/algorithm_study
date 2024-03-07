@@ -27,4 +27,11 @@ def solution(n, times):
             start = mid + 1
     return answer
 
-print(solution(6, [7,10])) # 28
+# 테스트 케이스
+case1_pred=solution(6, [7,10])
+case1_true=28
+
+# 채점 결과
+isanswer = [case1_pred==case1_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

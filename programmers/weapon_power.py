@@ -26,3 +26,15 @@ def solution(number, limit, power):
         else:
             answer+=i
     return answer
+
+# 테스트 케이스
+case1_pred = solution(5, 3, 2)
+case1_true = 10
+
+case2_pred = solution(10, 3, 2)
+case2_true = 21
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

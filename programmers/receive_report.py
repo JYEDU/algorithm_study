@@ -21,5 +21,12 @@ def solution(id_list, reports, k):
                 answer[id_list.index(i)]+=1
     return answer
 
-print(solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"], 2)) #[2,1,1,0]
-print(solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"], 3)) #[0,0]
+case1_pred=solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"], 2)
+case1_true=[2,1,1,0]
+case2_pred=solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"], 3)
+case2_true=[0,0]
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

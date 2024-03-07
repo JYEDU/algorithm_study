@@ -18,6 +18,10 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 6
+#### [4sum](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/four_sum)
+- [leetcode](https://leetcode.com/problems/4sum/description/)
+- python, array, two pointers, sorting
+
 #### [달리기 경주](https://github.com/JYEDU/algorithm_study/blob/main/programmers/running_race.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
 - python
@@ -34,15 +38,15 @@ python, ml, sql algorithm study project
 ## WEEK 5
 #### [Next Greater Element I](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/next_greater_element1)
 - [leetcode](https://leetcode.com/problems/next-greater-element-i/)
-- python
+- python, array, hash table, stack, monotonic stack
 
 #### [zigzag conversion](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/zigzag_conversion)
 - [leetcode](https://leetcode.com/problems/zigzag-conversion/)
-- python
+- python, string
 
 #### [The Number of Weak Characters in the Game](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/weak_characters)
 - [leetcode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/description/)
-- python
+- python, array, stack, greedy, sorting, monotonic stack
 
 #### [성격 유형 검사하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/kakao_mbti.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
@@ -71,7 +75,7 @@ python, ml, sql algorithm study project
 - python
 
 #### [개인정보 수집 유효기간](https://github.com/JYEDU/algorithm_study/blob/main/programmers/expire_date.py)
-- [programmers](https://xn--school-oiy.programmers.co.kr/learn/courses/30/lessons/150370)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
 - python
 
 #### [공원 산책](https://github.com/JYEDU/algorithm_study/blob/main/programmers/park_walk.py)
@@ -157,8 +161,8 @@ python, ml, sql algorithm study project
 - python
 
 #### [Two sum](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/two_sum)
-- [programmers](https://leetcode.com/problems/two-sum/)
-- python
+- [leetcode](https://leetcode.com/problems/two-sum/)
+- python, array, hash table
 
 #### [N으로 표현](https://github.com/JYEDU/algorithm_study/blob/main/programmers/n_number.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/42895)

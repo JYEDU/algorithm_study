@@ -29,6 +29,17 @@ def solution(park, routes):
                 break   
     return current
 
-print(solution(["SOO", "OOO", "OOO"], ["E 2", "S 2", "W 1"])) # [2, 1]
-print(solution(["SOO", "OXX", "OOO"], ["E 2", "S 2", "W 1"])) # [0, 1]
-print(solution(["OSO", "OOO", "OXO", "OOO"], ["E 2", "S 3", "W 1"])) # [0, 0]
+# 테스트 케이스
+case1_pred=solution(["SOO", "OOO", "OOO"], ["E 2", "S 2", "W 1"])
+case1_true=[2, 1]
+
+case2_pred=solution(["SOO", "OXX", "OOO"], ["E 2", "S 2", "W 1"])
+case2_true=[0, 1]
+
+case3_pred=solution(["OSO", "OOO", "OXO", "OOO"], ["E 2", "S 3", "W 1"])
+case3_true=[0, 0]
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true, case3_pred==case3_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

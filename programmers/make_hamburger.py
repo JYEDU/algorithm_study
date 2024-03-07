@@ -15,7 +15,14 @@ def solution(ingredient):
                     new.pop()
     return answer
 
+# 테스트 케이스
+case1_pred=solution([2, 1, 1, 2, 3, 1, 2, 3, 1])
+case1_true=2
 
-# 테스트
-print(solution([2, 1, 1, 2, 3, 1, 2, 3, 1]))  # 기댓값: 2
-print(solution([1, 3, 2, 1, 2, 1, 3, 1, 2]))  # 기댓값: 0
+case2_pred=solution([1, 3, 2, 1, 2, 1, 3, 1, 2])
+case2_true=0
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

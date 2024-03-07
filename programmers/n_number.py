@@ -29,6 +29,14 @@ def solution(N, number):
     # 목표 숫자를 만들 수 없는 경우 -1 반환
     return -1
 
-# example
-print(solution(5,12)) # 4
-print(solution(2,11)) # 3
+# 테스트 케이스
+case1_pred=solution(5, 12)
+case1_true=4
+
+case2_pred=solution(2, 11)
+case2_true=3
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

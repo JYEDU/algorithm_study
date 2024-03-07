@@ -1,6 +1,6 @@
 '''
 개인정보 수집 유효기간
-link: https://xn--school-oiy.programmers.co.kr/learn/courses/30/lessons/150370
+link: https://school.programmers.co.kr/learn/courses/30/lessons/150370
 모든 달은 28일까지 있다고 가정
 '''
 
@@ -31,7 +31,23 @@ def solution(today, terms, privacies):
             answer.append(num+1)
     return answer
 
-print(solution("2022.05.19", ["A 6", "B 12", "C 3"], ["2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"])) #[1, 3]
-print(solution("2020.01.01", ["Z 3", "D 5"], ["2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"])) #[1, 4, 5]
-print(solution("2019.12.09", ["A 12"], ["2018.12.10 A", "2010.10.10 A"])) #[2]
-print(solution("2009.12.28", ["A 13"], ["2008.11.03 A"])) #[1]
+# 테스트 케이스
+case1_pred=solution("2022.05.19", ["A 6", "B 12", "C 3"], ["2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"])
+case1_true=[1, 3]
+
+case2_pred=solution("2023.01.01", ["A 6"], ["2022.07.01 A", "2022.07.01 A", "2022.07.01 A"])
+case2_true=[1, 2, 3]
+
+case3_pred=solution("2020.01.01", ["Z 3", "D 5"], ["2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"])
+case3_true=[1, 4, 5]
+
+case4_pred=solution("2019.12.09", ["A 12"], ["2018.12.10 A", "2010.10.10 A"])
+case4_true=[2]
+
+case5_pred=solution("2009.12.28", ["A 13"], ["2008.11.03 A"])
+case5_true=[1]
+
+# 채점 결과
+isanswer = [case1_pred==case1_true, case2_pred==case2_true, case3_pred==case3_true, case4_pred==case4_true, case5_pred==case5_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

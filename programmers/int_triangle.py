@@ -25,12 +25,11 @@ def solution(triangle):
     return max(dp[-1])
 
 
-triangle = [
-    [7], 
-    [3, 8], 
-    [8, 1, 0], 
-    [2, 7, 4, 4], 
-    [4, 5, 2, 6, 5]
-]
+# 테스트 케이스
+case1_pred=solution([[7], [3, 8], [8, 1, 0], [2, 7, 4, 4], [4, 5, 2, 6, 5]])
+case1_true=30
 
-print(solution(triangle)) # 30
+# 채점 결과
+isanswer = [case1_pred==case1_true]
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")

@@ -83,4 +83,5 @@ case5_pred = solution(case5_bandage, case5_health, case5_attacks)
 
 # 채점 결과
 isanswer = [case1_pred==case1_answer, case2_pred==case2_answer, case3_pred==case3_answer, case4_pred==case4_answer, case5_pred==case5_answer]
-print(isanswer.count(True),"/",len(isanswer))
+#print(isanswer.count(True),"/",len(isanswer))
+print(len(isanswer), "개 중에", isanswer.count(True),"개 성공")
