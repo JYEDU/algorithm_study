@@ -18,6 +18,10 @@ python, ml, sql algorithm study project
 # LIST
 
 ## WEEK 6
+#### [데이터분석](https://github.com/JYEDU/algorithm_study/blob/main/programmers/data_analysis)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/250121)
+- python, pandas
+
 #### [4sum](https://github.com/JYEDU/algorithm_study/blob/main/leetcode/four_sum)
 - [leetcode](https://leetcode.com/problems/4sum/description/)
 - python, array, two pointers, sorting
@@ -26,7 +30,7 @@ python, ml, sql algorithm study project
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
 - python
 
-#### [붕대 감기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/bandage_wrapping.py)
+#### [붕대 감기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/bandage_wrapping)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/250137?language=python3)
 - python
 
