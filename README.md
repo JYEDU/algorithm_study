@@ -16,6 +16,26 @@ python, ml, sql algorithm study project
 
 
 # LIST
+## WEEK 7
+#### [부족한 금액 계산하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/calculate_money.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/82612)
+- python
+
+#### [나머지가 1이 되는 수 찾기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/find_remainder1)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/87389)
+- python
+
+#### [자릿수 더하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/adding_digits.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/12931#)
+- python
+
+#### [숫자 짝꿍](https://github.com/JYEDU/algorithm_study/blob/main/programmers/number_couple)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/131128)
+- python
+
+#### [키패드 누르기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/press_keypad.py)
+- [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
+- python, case
 
 ## WEEK 6
 #### [데이터분석](https://github.com/JYEDU/algorithm_study/blob/main/programmers/data_analysis)
