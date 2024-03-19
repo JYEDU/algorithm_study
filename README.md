@@ -16,6 +16,12 @@ python, ml, sql algorithm study project
 
 
 # LIST
+## WEEK 8
+#### 중복된 숫자 개수
+- [중복된 숫자 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120583)
+-  [python](https://github.com/JYEDU/algorithm_study/blob/main/programmers/duplicate_numbers/duplicate_numbers.py), [C](https://github.com/JYEDU/algorithm_study/blob/main/programmers/duplicate_numbers/duplicate_numbers.c)
+
+
 ## WEEK 7
 #### [부족한 금액 계산하기](https://github.com/JYEDU/algorithm_study/blob/main/programmers/calculate_money.py)
 - [programmers](https://school.programmers.co.kr/learn/courses/30/lessons/82612)
